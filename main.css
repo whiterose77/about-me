@@ -1,24 +1,32 @@
 body {
     background-color: cornflowerblue; 
     color: rgb(255, 255, 255);
-    background-image: url("https://img1.ak.crunchyroll.com/i/spire2/3e3222eac7b4dfa8244380d1957d27b91510271245_full.jpg");
+    background-image: url('https://bigmemes.funnyjunk.com/large/pictures/4e/4b/4e4baa_5942246.jpg');
     font-size: 150%;
 
 }
 
 #one-paragraph{
-color: blueviolet;
-
+color: rgb(0, 0, 07);
+font-size: 150%;
 }
 #two-paragraph{
-color: red;
+color:black;
+font-size: 150%;
 }
 #three-par{
-color: yellow;
+color:black;
+font-size: 150%
 }
 #wolf{
-color: darkslategrey;
+color:  black;
+font-size:150%
 }
 .noun{
-color: darkcyan;
+color: black;
+font-size: 150%;
+}
+#whiterose{
+color:black
+
 }
