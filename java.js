@@ -1,6 +1,6 @@
 let existingUserName = localStorage.getItem ('username');
 if (existingUserName){
-    window.alert('welcome Back  to whiterose hub ,' + existingUserName + ' :)');
+    window.alert('welcome,to whiterose hub ,' + existingUserName + ' :D');
 
 
 
