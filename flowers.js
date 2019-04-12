@@ -42,7 +42,11 @@ function getRandomColor() {
     }
     return color;
   }
+  $('#make-a-flower').click(function(){
+      console.log('you clicked me');
+      drawflower(Math.random() * 1500, Math.random() * 900 ,getRandomColor(),getRandomColor(),getRandomColor());
+
+  });
   
   
   
- 
