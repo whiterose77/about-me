@@ -13,5 +13,8 @@ if (existingUserName){
     window.alert('welcome to my website,' + userName + ' 😊');
 }
 
-
+$( '#clicks-me').click(function(){
+    console.log('it works');
+    window.alert('you fool it dose dont work')
+})
 

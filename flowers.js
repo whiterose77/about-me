@@ -44,9 +44,16 @@ function getRandomColor() {
   }
   $('#make-a-flower').click(function(){
       console.log('you clicked me');
+    let numberflower= $('#make-flower').val();
+    
+    console.log('number of flowers' + numberflower)
+    for (let i = 0; i < numberflower; i++){
+      console.log('i works now keep working');
       drawflower(Math.random() * 1500, Math.random() * 900 ,getRandomColor(),getRandomColor(),getRandomColor());
+    }
+
 
   });
-  
+
   
   
