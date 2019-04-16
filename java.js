@@ -6,11 +6,12 @@ if (existingUserName){
 
 } else {
     window.alert('Welcome Newuser to my website hope you enjoy your stay here at the whiterose hub');
-    let userName = window.prompt('What do you want me to call you');
+    let userName = window.prompt('What do you want me to call you newsuser');
     if (userName){
         localStorage.setItem('username', userName);
     }
     window.alert('welcome to my website,' + userName + ' 😊');
 }
+
 
 
