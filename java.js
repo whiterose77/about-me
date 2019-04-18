@@ -15,7 +15,7 @@ if (existingUserName){
 
 $( '#clicks-me').click(function(){
     console.log('it works');
-    window.alert("You fool you just clicked me  now you have a virus in 20 seconds you device will be infected");
+    window.alert("You fool you just clicked me  now you have a virus in 10 seconds you device will be infected");
     setTimeout(function(){ window.alert('Jk just messing around  with you have a nice day:D') }, 10000 );
 })
 
