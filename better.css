@@ -1,0 +1,9 @@
+/* Crop large images inside the carousel, and vertically center them. */
+Body{
+background-image: url("https://bigmemes.funnyjunk.com/large/pictures/4e/4b/4e4baa_5942246.jpg");
+font-size: 150%
+}
+img{
+    width: 300px;
+}
+
